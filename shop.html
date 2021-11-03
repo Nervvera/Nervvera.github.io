@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Peppermint shop</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Poiret+One&display=swap" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <script src="https://kit.fontawesome.com/45fae7642f.js" crossorigin="anonymous"></script>
+        </head>
+        <body>
+
+            <!-- шапка -->
+            <div class = "title" style="background:rgb(5, 5, 5);padding:2px">
+            <h4 style="text-align:center;">PEPPERMINT SHOP</h4>
+            </div>
+
+            <!-- навигация по сайту -->
+            <div class="navbar">
+                <div class="left-column">
+                    <a href="#">Одежда</a>
+                    <a href="#">Аксессуары</a>
+                    <a href="#">% Sale</a>
+                    <a href="#">Доставка и оплата</a>
+                </div>
+                <nav class="right-column">
+                    <a href="#" target="_blank"><i class="fa fa-search"></i></a>
+                    <a href="#" target="_blank"><i class="fas fa-user"></i></a>
+                    <a href="#" target="_blank"><i class="fas fa-shopping-basket"></i></a>
+                </nav>
+            </div>
+
+            <!-- баннер -->
+            <div class="header">
+                <img href="" src="https://i.ibb.co/0mkXfv5/NEW-COLLECTION.png" alt="NEW-COLLECTION" border="0">
+                <a title="to collection" href="" target="_blank"><b>Перейти к коллекции  &#8594</b></a>
+            </div>
+
+            
+
+            <!-- боковое меню (категории/фильтры) -->
+            <div class="row">
+            <div class="side">
+                <h2 class = "title" style="background:rgb(5, 5, 5);padding:2px;text-align:center;">КАТЕГОРИИ</h2> 
+                <h5>
+                    <ul class="widget-category-list">
+                        <li><a href="">Новая коллекция</a></li>
+                        <li><a href="">Пальто и куртки</a></li>
+                        <li><a href="">Футболки</a></li>
+                        <li><a href="">Свитеры</a></li>
+                        <li><a href="">Брюки и джинсы</a></li>
+                        <li><a href="">Худи и свитшоты</a></li>
+                        <li><a href="">Юбки</a></li>
+                        <li><a href="">Рубашки</a></li>
+                      </ul>
+                </h5>
+                <h2 class = "title" style="background:rgb(5, 5, 5);padding:2px;text-align:center;">ФИЛЬТРЫ</h2>
+                <ul class="widget-filter-list">
+                    <li><a href="">Цена<br>от <input type="text" id="price"> до <input type="text" id="price"></a></li>
+                    <li><a href="">Цвет</a></li>
+                    <li><a href="">Размер</a></li>
+                    <li><a href="">Материал</a></li>
+                    <li><a href="">Узор</a></li>
+                    <li><form method="post" action="" id="filter"><button type="submit">Применить &#8594</button></form></li>
+                  </ul>
+            </div>
+            <!-- блок с товарами -->
+            <div class="main">
+                 <ul class="flex-container">
+                    <li class="flex-item">
+                        <div class="box1"><img src="https://i.ibb.co/D4H3CL2/image.jpg" alt="Джинсовка в стиле тай-дай" border="0"></div>
+                        <div class="box2">Джинсовка в стиле тай-дай</div>
+                        <div class="box3" >3500 р</div>
+                        <div class="box4"><a>BUY &#8594</a></div>
+                    </li>
+                    <li class="flex-item">
+                        <div class="box1"><img src="https://i.ibb.co/YNF79tK/image.jpg" alt="Розовый кроп-топ с длинным рукавом" border="0"></div>
+                        <div class="box2">Розовый кроп-топ</div>
+                        <div class="box3">2000 р</div>
+                        <div class="box4"><a>BUY &#8594</a></div>
+                    </li>
+                    <li class="flex-item">
+                        <div class="box1"><img src="https://i.ibb.co/6tdzwSY/1.jpg" alt="Рубашка в ретро-стиле" border="0"></div>
+                        <div class="box2">Рубашка в ретро-стиле</div>
+                        <div class="box3">2500 р</div>
+                        <div class="box4"><a>BUY &#8594</a></div>
+                    </li>
+                    <li class="flex-item">
+                        <div class="box1"><img src="https://i.ibb.co/MVqzX28/image.jpg" alt="Желтое худи с принтом" border="0"></div>
+                        <div class="box2">Желтое худи с принтом</div>
+                        <div class="box3">3000 р</div>
+                        <div class="box4"><a>BUY &#8594</a></div>
+                    </li>
+                    <li class="flex-item">
+                        <div class="box1"><img src="https://i.ibb.co/2cpJL7R/1.jpg" alt="Футболка в разноцветную полосу" border="0"></div>
+                        <div class="box2">Футболка в полосу</div>
+                        <div class="box3">1100 р</div>
+                        <div class="box4"><a>BUY &#8594</a></div>
+                    </li>
+                    <li class="flex-item">
+                        <div class="box1"><img src="https://i.ibb.co/VV2dd3M/image.jpg" alt="Рубашка с анималистичным принтом" border="0"></div>
+                        <div class="box2">Рубашка с зебра-принтом</div>
+                        <div class="box3">2500 р</div>
+                        <div class="box4"><a>BUY &#8594</a></div>
+                    </li>
+                  </ul></div>
+            </div>
+
+            <!-- Подвал сайта с доставкой и контактами -->
+            <div class="footer">
+                <div class="contacts">
+                    <div class="heading"> <h2>Способы доставки</h2></div>
+                    <div class="left-column"><div class="column-type">Самовывоз</div>
+                    Вы можете забрать самостоятельно из наших магазинов по адресу:<br>
+                    г. Санкт-Петербург, ул. Стремянная, д 13<br>
+                    г. Санкт-Петербург, пр. Энгельса, д 96<br>
+                    в любое удобное для Вас время.
+                    <br>
+                    <br>
+                    Предваритеьно необходимо оформить заказ на сайте.</div>
+                    <div class="right-column"><div class="column-type">Доставка курьером</div>
+                    Наши курьеры доставят выбранный Вами товар до двери. 
+                    Совершая заказ на сайте, укажите данный способ доставки и выберите нужное вам время.
+                    <br>
+                    <br>
+                    ВНИМАНИЕ! Заказ должен быть совершен не поздее, чем за 24 часа до выбранного времени доставки.
+                </div>
+                </div>
+                <div class="footer-col" style="color:#f35f10;">По всем вопросам можете обращаться:</div>
+                <div class="footer-col">
+                  <div class="social-bar-wrap">
+                    <a title="VKontakte" href="" target="_blank"><i class="fa fa-vk"></i></a>
+                    <a title="Instagram" href="" target="_blank"><i class="fa fa-instagram"></i></a>
+                  </div>
+                </div>
+                <div class="footer-col">
+                  <a href="">+7 800 555 35 35</a>
+                </div>
+            </div>
+
+        </body>
+    </html>
+
+
